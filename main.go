@@ -179,7 +179,7 @@ func main() {
 	flag.Parse()
 	tail := flag.Args()
 
-	// log
+	// log --
 	log.SetPrefix("[EasyDarwin] ")
 	log.SetFlags(log.Lshortfile | log.LstdFlags)
 
